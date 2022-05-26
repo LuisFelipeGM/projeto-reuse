@@ -1,0 +1,15 @@
+{
+    "name": "projeto-reuse",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router":"1.0.*"
+    }
+}
